@@ -31,3 +31,5 @@ class InfiniteTweets {
 }
 
 module.exports = InfiniteTweets;
+
+git filter-branch -f --env-filter "GIT_AUTHOR_NAME='npl22'; GIT_AUTHOR_EMAIL='nli22@jhu.edu'; GIT_COMMITTER_NAME='npl22'; GIT_COMMITTER_EMAIL='nli22@jhu.edu';" HEAD
